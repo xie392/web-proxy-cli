@@ -28,7 +28,6 @@
     "https",
     "development"
   ],
-  "author": "",
   "license": "MIT",
   "packageManager": "pnpm@10.15.1",
   "devDependencies": {
@@ -44,5 +43,10 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "gradient-string": "^3.0.0"
+  },
+  "author": "xie392 <ymzdjiang@qq.com> (https://xie392.cn)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xie392/create-xie392-template.git"
   }
 }
