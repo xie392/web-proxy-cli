@@ -14,7 +14,7 @@ export function createProxyServer(config: ProxyConfig) {
     port,
     target,
     logger = true,
-    timeout = 30_000,
+    timeout = 30_000_000,
   } = config;
 
   const app = express();
