@@ -1,6 +1,6 @@
 {
   "name": "web-proxy-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI tool for creating CORS-enabled proxy servers",
   "main": "dist/server.js",
   "type": "module",
