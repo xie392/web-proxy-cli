@@ -8,7 +8,9 @@ import gradient from "gradient-string";
 import { createProxyServer } from "./server";
 import type { ProxyConfig } from "./types";
 
-const PACKAGE_VERSION = "1.0.0";
+import pkg from '../package.json'
+
+const PACKAGE_VERSION = pkg.version
 
 function printHelp() {
   const title = gradient.pastel.multiline("Web Proxy CLI");
